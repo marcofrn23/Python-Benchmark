@@ -1,3 +1,4 @@
+# Reference to http://quantstart.com/articles/LU-Decomposition-in-Python-and-NumPy
 from __future__ import print_function, division
 import cProfile
 from pprint import pprint

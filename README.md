@@ -11,7 +11,7 @@ For this Project I will use some important numerical calculus algorithm, such as
 
 Numba is supported by Anaconda and it is integrated in the **Python scientific stack**.
 
-##Installing
+#Installing
 GIT:
 ```
 git clone git://github.com/numba/numba.git
@@ -20,7 +20,7 @@ Anaconda:
 ```
 $ conda install numba
 ```
-##Dependencies
+#Dependencies
 - LLVM
 - NumPy (version 1.9 or higher)
 

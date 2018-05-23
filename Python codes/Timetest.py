@@ -1,7 +1,7 @@
-from time import clock
 from __future__ import print_function, division
+from time import clock
 import cProfile
-import timeit
+from timeit import timeit
 
 # def wrapper(func, *args):  # needed to use timeit with calls to functions with args
 #     def wrapped():

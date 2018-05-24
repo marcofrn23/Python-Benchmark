@@ -1,4 +1,4 @@
 # Numba configs
 .numbadoc/
 *.txt
-*py
+*.py

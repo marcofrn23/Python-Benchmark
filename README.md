@@ -11,7 +11,10 @@ For this Project I will use some important numerical calculus algorithm, such as
 
 Numba is supported by Anaconda and it is integrated in the **Python scientific stack**. 
 
+In this project I will also use **cProfile**, **line_profiler**, **SciPy**.
+
 ## Installing
+- Numba:
 GIT:
 ```
 git clone git://github.com/numba/numba.git
@@ -19,6 +22,14 @@ git clone git://github.com/numba/numba.git
 Anaconda:
 ```
 $ conda install numba
+```
+- line_profile:
+```
+$ pip install line_profiler
+```
+In order to run the python code in line-profiling mode, run via terminal:
+```
+$ kernprof -l -v codetoexecute.py
 ```
 ## Dependencies
 - LLVM

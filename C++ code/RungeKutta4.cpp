@@ -27,36 +27,7 @@ void solve(double x0, double t0, double T, unsigned N, double times[], double so
         sol[i] = sol[i-1] + (k1 + 2*k2 + 2*k3 + k4)/6.0;
     }
 }
-void test() {
-    unsigned N = 30;
-    
-    double t0 = 0.0;
-    double x0 = 1.0;
-    
-    double T = 10.0;
-    
-    double times[N];
-    double sol[N];
-    unsigned nt = 20;
-    double test[nt];
-    double sum = .0;
-    double avg, max, min = .0;
-    for (unsigned i =0; i<nt; i++) {
-        clock_t start = clock();
-        solve(x0, t0, T, N, times, sol);
-        clock_t end = clock();
-        test[i] = ((double)(end-start))/CLOCKS_PER_SEC;
-    }
-    max = test[0];
-    min = max;
-    for (unsigned i =0; i<nt; i++) {
-        sum += test[i];
-        if (test[i] > max) swap(test[i], max);
-        if (test[i] < min) swap(test[i], min);
-    }
-    avg = sum/nt;
 
-}
 int main(int argc char** argv) {
     unsigned N = 30;
     

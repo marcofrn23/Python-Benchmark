@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numba
 import time
 
-# Solving ODEs with odeint function from the scipy module. Code is obviously shortest, but it is much slower than 
+# Solving ODEs with odeint function from the scipy module. Code is obviously shorter, but it is much slower than 
 # in 'RungeKuttaODE-opt.py' even with the addition of the njit decorator to the function that evals the equation
 
 @numba.njit

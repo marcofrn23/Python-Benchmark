@@ -6,9 +6,12 @@ import time
 import os
 import numpy as np
 
+# Some nice environment variables
 os.environ['NUMBA_WARNINGS']='1'
-os.environ['NUMBA_OPT']='1'
-# os.environ['NUMBA_DUMP_ASSEMBLY']='1'  # Outputs the correspondant assembly code 
+# os.environ['NUMBA_DEBUG_TYPEINFER']='1'    # Information abount types inferences
+# os.environ['NUMBA_DEBUG_ARRAY_OPT']='1'    # Parallel computing information
+# os.environ['NUMBA_NUM_THREADS']='1'        # Threading control 
+# os.environ['NUMBA_DUMP_ASSEMBLY']='1'      # Outputs the correspondant assembly code 
 
 # @numba.jit('float64[:,:](float64[:,:], float64[:,:])',nopython = True)
 # def dot_numpy(A, B):

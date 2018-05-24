@@ -1,6 +1,7 @@
 import numpy as np
 from scipy.integrate import odeint
 import matplotlib.pyplot as plt
+import cProfile
 import numba
 import time
 
@@ -25,11 +26,13 @@ dt = (T-t0)/float(N)
 t = np.linspace(t0,T,dt)
 
 # solve ODE
-def integrate(func, y0, t):
-    return odeint(func,y0,t)
+# @profile
+def integrate(func, y0, t):  
+    return odeint(func,y0,t)  # Numba is not able to jit this function in nopython mode
 
 y = integrate(func, y0, t)
 
+# cProfile.run('integrate(func,y0,t)')
 # plot results
 # plt.plot(t,y)
 # plt.xlabel('time')

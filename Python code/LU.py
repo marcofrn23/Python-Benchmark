@@ -1,5 +1,5 @@
 # Reference to http://quantstart.com/articles/LU-Decomposition-in-Python-and-NumPy.
-# I have taken the code for LU fact. from here then I modified it to work with NumPy arrays
+# I have taken the code for LU fact. from here then I rearranged it to work easily with NumPy arrays 
 from __future__ import print_function, division
 from pprint import pprint
 import numba

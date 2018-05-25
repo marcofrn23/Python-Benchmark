@@ -4,8 +4,7 @@ import scipy
 import scipy.linalg   # SciPy Linear Algebra Library
 import numba
 
-# With the linalg library from scipy, the code for the LU factorization shrinks a lot, but performance worsen very badly.
-# Numba results unapplicable to the function lu()
+# Applying lu factorization with the "linalg" library function "lu" from scipy module.
 
 A = scipy.array([ [7, 3, -1, 2], [3, 8, 1, -4], [-1, 1, 4, -1], [2, -4, -1, 6] ])
 

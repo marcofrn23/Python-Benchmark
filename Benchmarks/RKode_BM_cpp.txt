@@ -2,7 +2,8 @@
 // IMPORTANT: The data shown below are results of "hand-made" tests, with functions I wrote. 
 The tests are not completely accurate, since I have not tried out all the possibilities for input data. 
 For ODE solving I have used 3 familiar first order equations, with exponentials, 
-powers and so on (It does not make a relevant difference). I have also considered different time intervals and initial values. Time evaluation was repeated for at least 10 times for each point evaluation before 
+powers and so on (It does not make a relevant difference). I have also considered different time intervals and initial values. 
+Time evaluation was repeated for at least 10 times for each point evaluation before 
 increasing the number of steps. However, the results are sufficiently accurate.
 
 RKODE

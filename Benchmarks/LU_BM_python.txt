@@ -1,4 +1,9 @@
 // *Time Unit* seconds
+// IMPORTANT: The data shown below are results of "hand-made" tests, with functions I wrote. 
+The tests are not completely accurate, since I have not tried out all the possibilities for input data. 
+For LU factorization I have used random-generated matrices, at first with double floating point numbers between -2 and 2, then with integer numbers, (using NumPy functions in Python), and then I took the averages. 
+Time evaluation was repeated for at least 10 times for each matrix (average) before increasing the dimension. 
+However, the results are sufficiently accurate.
 
 LU OPT (JIT+PAR)
 // Matrix dimension

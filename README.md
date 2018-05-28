@@ -9,9 +9,9 @@ To achieve this it will be used the just-in-time compilation function provided w
 
 For this Project I will use some important numerical calculus algorithm, such as methods for solving ODEs and matrices factorizations.
 
-Numba is supported by Anaconda and it is integrated in the **Python scientific stack**. 
+Numba is supported by Anaconda and it is integrated in the **Python scientific stack**. For more detailed information about the Numba module, head to the [Official Documentation](https://numba.pydata.org/).
 
-In this project I will also use **NumPy**, **cProfile**, **line_profiler**, **SciPy**.
+In this project I will also use **NumPy**, **cProfile**, **line_profiler**.
 
 ## Installing
 ### Numba:
@@ -35,4 +35,4 @@ $ kernprof -l -v codetoexecute.py
 - LLVM
 - NumPy (version 1.9 or higher)
 
-For more detailed information about the Numba module, head to the [Official Documentation](https://numba.pydata.org/)
+

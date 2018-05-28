@@ -36,5 +36,6 @@ $ kernprof -l -v codetoexecute.py
 ## Dependencies
 - LLVM
 - NumPy (version 1.9 or higher)
+___
 
 ***Project for "Computer architectures and networks" held by Prof. A. Mancini at UNIVPM.***

@@ -7,7 +7,7 @@
 using namespace std;
 
 double eval(double t, double x) {
-    return 3*pow(2,t) +  pow(t,2) + 4*x;
+    return 3*pow(2,t) +  pow(t,2) + 4*x;  // sample
 }
 
 void solve(double x0, double t0, double T, unsigned N, double times[], double sol[]) {

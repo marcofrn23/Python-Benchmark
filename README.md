@@ -12,7 +12,7 @@ For this Project I have used some important numerical calculus algorithm, such a
 
 Numba is supported by Anaconda and it is integrated in the **Python scientific stack**. For more detailed information about the Numba module, head to the [Official Documentation](https://numba.pydata.org/).
 
-In this project I will also use **NumPy**, **cProfile**, **line_profiler**. For the final project report, click [here]{doc.pdf}.
+In this project I will also use **NumPy**, **cProfile**, **line_profiler**. For the final project report, click [here]{https://github.com/marcofrn23/Python-Benchmark/blob/master/doc.pdf}.
 
 ## Installing
 ### Numba:

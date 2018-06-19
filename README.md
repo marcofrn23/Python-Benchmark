@@ -14,11 +14,13 @@ Numba is supported by Anaconda and it is integrated in the **Python scientific s
 
 In this project I will also use **NumPy**, **cProfile**, **line_profiler**. For the final project report, click [here](https://github.com/marcofrn23/Python-Benchmark/blob/master/doc.pdf).
 
+Benchmarks were carried out on a 2,7 GHz Intel Core i5® dual-core 8 GB Ram machine. Outcomes could vary across different architectures.
+
 ## Installing
 ### Numba:
 GIT:
 ```
-git clone git://github.com/numba/numba.git
+$ git clone git://github.com/numba/numba.git
 ```
 Anaconda:
 ```
@@ -38,4 +40,4 @@ $ kernprof -l -v codetoexecute.py
 - NumPy (version 1.9 or higher)
 ___
 
-***Project for "Computer architectures and networks" held by Prof. A. Mancini at UNIVPM.***
+***Project for "Computer architectures and networks" held by Prof. A. Mancini at UNIVPM, Italy***
